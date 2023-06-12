@@ -42,3 +42,25 @@
     --light: 400;
     --bold: 700;
 }
+
+/*Basic Styles*/
+
+body {
+    background: var(--very-dark-blue);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*Components*/
+
+.card {
+    background: var(--dark-desaturated-blue);
+    max-width: 92%;
+    border-radius: .4rem;
+    overflow: hidden;
+    margin: 1rem;
+}
