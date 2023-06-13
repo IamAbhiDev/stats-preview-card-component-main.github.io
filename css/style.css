@@ -67,7 +67,7 @@ img {
     max-width: 92%;
     border-radius: .4rem;
     overflow: hidden;
-    margin: 1.4rem;
+    margin: 1.5rem;
 }
 
 .card__showcase {
@@ -80,7 +80,7 @@ img {
 }
 
 .card__content {
-    padding: 1.4rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -95,10 +95,27 @@ img {
 
 .card__content__text {
     color: var(--slightly-transparent-white);
+    font-size: 0.9375rem;
     line-height: 1.7;
     margin-top: 1.2rem;
 }
 
 .card__content__insights {
     margin-top: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.card__content__insights__col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+
+.card__content__insights__col-title {
+    color: var(--slightly-transparent-white-title);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    margin-top: .4rem;
 }
