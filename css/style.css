@@ -92,3 +92,9 @@ img {
 .card__content__heading-highlight {
     color: var(--soft-violet);
 }
+
+.card__content__text {
+    color: var(--slightly-transparent-white);
+    line-height: 1.7;
+    margin-top: 1.2rem;
+}
