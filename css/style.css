@@ -67,7 +67,7 @@ img {
     max-width: 92%;
     border-radius: .4rem;
     overflow: hidden;
-    margin: 1rem;
+    margin: 1.4rem;
 }
 
 .card__showcase {
@@ -80,6 +80,15 @@ img {
 }
 
 .card__content {
-    padding: 1rem;
+    padding: 1.4rem;
     text-align: center;
+}
+
+.card__content__heading {
+    font-size: 1.8rem;
+    margin-top: .8rem;
+}
+
+.card__content__heading-highlight {
+    color: var(--soft-violet);
 }
